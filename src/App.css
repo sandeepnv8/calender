@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+/* .calender{
+  margin-top: 100px;
+  width: 200px auto;
+  height: 500px;
+  background-color: #3949AB;
+} */
+
+#calender {
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 70px auto;
+}
+
+#calender td, #calender th {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#calender tr:nth-child(even){background-color: #f2f2f2;}
+
+#calender tr:hover {background-color: #ddd;}
+
+#calender th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#F57F17;
+  color: white;
+}
